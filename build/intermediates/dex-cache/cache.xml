@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/Tools/Android_SDK/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/support-annotations-24.2.1_79747a1d07efc9639db4f2d7002d9361e0852ef6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-core-utils-24.2.1_7987c316e31f6a344fe1975c41e693c06950aee0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_152d5fbd3adc0b2bce0e5ad844e971b59bd802b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_7d3b283ac34c94207b5b753065e77715da843c6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_fb03f909456e793b4a4b46b957a1f0c9ac0733cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-fragment-24.2.1_d0c754c13d1a8ab6c6a4c6d18cb9ffce6e8467ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-vector-drawable-24.2.1_b560f387a96c3e45f77db2015dd8cdfb1829e9aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/CaffeFramework/openCVLibrary310/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="052bc1746d299260629ba74a8dfcd5a994333298">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/CaffeFramework-openCVLibrary310-unspecified_45d02986dd726c3cc9695a08b758ef3508eecbb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_a42ff91db57a234bbdc4d6d811f7f9eb9f3ae3a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_878ece2e5116005b5dc6f8e157caff4cfd10d7af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-media-compat-24.2.1_726a7e30b5a0bbb17fda01ab1b89cf73f82cf5a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-core-ui-24.2.1_de6920f5b8a9408060e7903c07f252faf043ba8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/internal_impl-24.2.1_dda83bf4da767402ae175a9b08b93f3db431dc88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-appcompat-v7-24.2.1_197bf173e11bc2068d48f4afd1e5ffbb5beaadc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_ac62993b0cf489cf8f919347a067004641969641.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/internal_impl-24.2.1_09f615f3375f1a2322862b6aac25483cc4df808f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/internal_impl-24.2.1_225cdfad91e6b65345334f6b1883eea9aa2fb0f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/internal_impl-24.2.1_25cb141cc910c543bf05f78537d2a3fbea09906e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Tools/Android_SDK/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_06f5ebce5ed6c65488f242521465375f5173a0e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-compat-24.2.1_5dbceba64e966bc27b1e54cf7077ccb1dbadd37e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_b0f4f5f81be450629dcee485300d507008368042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_d7c19a241a4485c160a8fe774586b5e938424b3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_ab11d0b7466b4f8c450b522fd56ac2ef3f92b4f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_e9d2b1cfeced7299d10001882068cba2a2a8dfeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-v4-24.2.1_4cd03839562ebc373b5eee200232eaa162cbeb45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/com.android.support-animated-vector-drawable-24.2.1_de7a7e73c288ed080e5bb7ab70ed2c0706d2b694.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/arm/debug/internal_impl-24.2.1_e0a5a26fd091cb3d9a186b58d9bd60342e3e9a33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_ed179abce613545e41e218c1bc8c32fc94e6e86e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_a09c68470f125c4c380c527b8bf48fc017dbb9ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_3adbca82d103238ace3862aba302132d524afbb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/Workspace/Android_Projects/Local/CaffeFramework/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_839a1219acbb9f0b00325225a91f71391b96f26f.jar" />
+    </item>
+
+</items>

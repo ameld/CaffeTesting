@@ -1,0 +1,182 @@
+apply plugin: 'com.android.model.application'
+
+//dont't Change this is path to jniLibs in Android Project
+def lib_path = "../android_lib"
+
+
+
+model {
+
+    repositories {
+        libs(PrebuiltLibraries) {
+            Boost {
+                headers.srcDirs  "${lib_path}/armeabi/boost/include"
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/boost/lib/libboost_filesystem.a")
+                }
+            }
+
+        }
+
+        libs(PrebuiltLibraries) {
+            Gflags {
+                headers.srcDirs  "${lib_path}/armeabi/gflags/include"
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/gflags/lib/libgflags.a")
+                }
+            }
+        }
+
+        libs(PrebuiltLibraries) {
+            Glog {
+                headers.srcDirs "${lib_path}/armeabi/glog/include"
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/glog/lib/libglog.a")
+                }
+            }
+        }
+
+        libs(PrebuiltLibraries) {
+            Lmdb {
+                headers.srcDirs "${lib_path}/armeabi/lmdb/include"
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/lmdb/lib/liblmdb.a")
+                }
+            }
+        }
+
+        libs(PrebuiltLibraries) {
+            OpenBlas {
+                headers.srcDirs "${lib_path}/armeabi/openblas/include"
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/openblas/lib/libopenblas_armv5p-r0.2.18.a")
+                }
+            }
+        }
+
+        libs(PrebuiltLibraries) {
+            ProtoBuf {
+                headers.srcDirs "${lib_path}/armeabi/protobuf/include"
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/protobuf/lib/libprotoc.a")
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/protobuf/lib/libprotobuf.a")
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/protobuf/lib/libprotobuf-lite.a")
+
+
+                }
+            }
+        }
+
+        libs(PrebuiltLibraries) {
+            ProtoBufHost {
+                headers.srcDirs "${lib_path}/armeabi/protobuf_host/include"
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/protobuf_host/lib/libprotobuf.a")
+                }
+            }
+        }
+
+        libs(PrebuiltLibraries) {
+            CaffeProto {
+
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_path}/${targetPlatform.getName()}/caffe/lib/libproto.a")
+                }
+            }
+        }
+
+    }
+
+
+    android {
+        compileSdkVersion 24
+        buildToolsVersion "24.0.2"
+
+        defaultConfig {
+            applicationId "testing.caffeframework"
+            minSdkVersion.apiLevel 21
+            targetSdkVersion.apiLevel 24
+            versionCode 1
+            versionName "1.0"
+        }
+
+        buildTypes {
+            release {
+                minifyEnabled = false
+                proguardFiles.add(file('proguard-rules.pro'))
+            }
+        }
+
+        ndk {
+            moduleName = "ndk_modules"
+
+            cppFlags.addAll(["-std=c++11", "-fexceptions", "-frtti"])
+            cppFlags.add("-I${file("/home/Tools/OpenCV-android-sdk/sdk/native/jni/include")}".toString())
+            cppFlags.add("-I${file("../native_headers/caffe/include")}".toString())
+
+            ldLibs.addAll(["android", "EGL", "GLESv2", "dl", "log", "z", "atomic"])
+
+            stl = "c++_static"
+
+        }
+
+        productFlavors {
+            create("armeabi") {
+                ndk.with {
+                    abiFilters.add("armeabi")
+
+                    File curDir = file('./')
+                    curDir = file(curDir.absolutePath)
+
+                    String libsDir = curDir.absolutePath + "/src/main/jniLibs/opencv/armeabi/"
+                    String caffeDir = curDir.absolutePath + "/src/main/jniLibs/armeabi/"
+
+                    ldLibs.add(libsDir + "libopencv_java3.so")
+                    ldLibs.add(caffeDir + "libcaffe.so")
+                    ldLibs.add(caffeDir + "libcaffe_jni.so")
+
+                }
+            }
+
+            create("fat")
+
+        }
+
+
+    }
+
+    android.sources {
+        main {
+            jni {
+                dependencies  {
+                    library "Boost" linkage "static"
+                    library "Gflags" linkage "static"
+                    library "Glog"  linkage "static"
+                    library "Lmdb" linkage "static"
+                    library "OpenBlas" linkage "static"
+                    library "ProtoBuf" linkage "static"
+                    library "CaffeProto" linkage "static"
+
+                }
+            }
+        }
+
+    }
+
+
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile project(':openCVLibrary310')
+}
